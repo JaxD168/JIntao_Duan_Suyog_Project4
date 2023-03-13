@@ -27,6 +27,15 @@
     padding-right: 140px;
 }
 
+.header-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 16px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
 .bund-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
