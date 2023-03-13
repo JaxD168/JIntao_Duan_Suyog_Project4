@@ -98,18 +98,21 @@ header {
     margin-left: 140px;
 }
 
+/* video */
+
 #video-section{
     max-width: 1920px;
     height: 1060px;
     background-color: white;
-    margin-top: 50px;
+    margin-top: 170px;
+    margin-left: 350px;
 }
 
 #video {
     width: 1640px;
     height: 836px;
     background-color: black;
-    margin-left: 150px;
+    
 }
 
 #reb-section {
@@ -205,4 +208,41 @@ header {
     height: 80px;
     grid-column: 4/5;
     grid-row: 5/6;
+    margin-top: 25px;
+}
+
+/* footer */
+footer {
+    height: 412px;
+    background-color: #474747;
+    margin-top: 70px;
+}
+
+#footer-logo{
+    width: 193px;
+    height: 143px;
+    grid-column: 6/7;
+    margin-top: 50px;
+}
+
+#join {
+    width: 260px;
+    height: 96px;
+    grid-row: 2;
+    grid-column: 2/3;
+}
+
+#enquly {
+    width: 260px;
+    height: 96px;
+    grid-row: 2;
+    grid-column: 5/7;
+    margin-left: 120px;
+}
+
+#social-media {
+    width: 398px;
+    height: 122px;
+    grid-row: 2;
+    grid-column: 10/12;
 }

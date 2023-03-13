@@ -33,13 +33,6 @@
     gap: 16px;
 }
 
-.full-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-left: 140px;
-    padding-right: 140px;
-}
-
 .reb-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
